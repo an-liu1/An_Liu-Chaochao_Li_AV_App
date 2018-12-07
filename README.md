@@ -4,6 +4,15 @@
 
 Audio/Video App  --- This project will build an audio/video app by using queries and database assets. 
 
+Based on Roku Flashback, able to log in, select movies, tv show or audio based on user
+profile (adult or kids). You will build an API that will let a user comment on the
+selection, rate it, and share via social media. 
+
+For now, we  focus on creating the correct app structure
+with some tooling in place (Gulp, SASS etc).
+
+In the future, we will update more function to Audio/Video App.
+
 ## Getting Started
 
 ### Prerequisites
