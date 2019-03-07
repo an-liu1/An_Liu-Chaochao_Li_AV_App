@@ -1,0 +1,174 @@
+* { border: 0; padding: 0; margin: 0; }
+
+html { position: relative; min-height: 100%; }
+
+body {
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background-color: black;
+	color: white;
+	margin-bottom: 100px;
+	background: url(../images/gunmetal.jpg) repeat;
+}
+
+a {
+	color: #00B7FF;
+	text-decoration: none;
+}
+
+header {
+	background-color:$dark-bg;
+	padding: 12px 14px;
+	position: fixed;
+	z-index: 500;
+	width: 100%; 
+
+	span {
+		margin-left: 15px;
+		font-weight: bolder;
+		font-size: 1.5em;
+		text-transform: uppercase;
+		position: relative;
+		top: 5px;
+	}
+}
+
+.adminHeader{
+	span{
+		color: #6c3c97;
+	}
+	.adminNav ul{
+		list-style-type: none;
+	}
+	.adminNav ul li{
+		text-decoration: none;
+	}
+	.adminNav li a{
+		text-transform: capitalize;
+		color: white;
+	}
+
+	.adminNav li a:hover, .adminNav li:hover{
+		color: #6c3c97;
+
+	}
+}
+
+.category{
+	margin-top: 10px;
+	ul{
+		list-style-type: none;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.dropdown-menu{
+		background-color: black;
+	}
+	.dropdown-menu li a{
+		font-size: 1em;
+	}
+	ul li{
+		display: inline;
+		text-decoration: none;
+		margin-right: 20px;
+	}
+	ul li a{
+		font-size: 1.5em;
+		text-transform: uppercase;
+		color: white;
+	}
+	ul li a:hover{
+		color: #6c3c97;
+	}
+	form{
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+	img{
+		width: 95%;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+#mainContainer{
+	margin-top: 20px;
+	.left{
+		font-size: 1em;
+	}
+	.left ul{
+		list-style-type: none;
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	.left ul li a{
+		color: white;
+		font-size: 1.2em;
+	}
+	.left ul li:first-child a{
+		color: #6c3c97;
+		font-size: 1.4em;
+	}
+
+	.right p{
+		color: white;
+		font-size: 1em;
+	}
+	.right a img:hover{
+		transform: scale(1.05);
+	}
+	.right a p:hover{
+		color: #6c3c97;
+	}
+	.video video{
+		width: 95%;
+		display: block;
+		margin: 10px auto;
+		
+	}
+	.video p{
+		color: white;
+		margin-left: 10px;
+	}
+	.videopconly{
+		display: none;
+	}
+}
+nav:not(.side-nav) {
+	ul {
+		right: 3em;
+		list-style-type: none;
+		margin-bottom: 0;
+
+		li {
+			display: inline-block;
+			font-size: 1.75em;
+			padding: 0 0.2em;
+			cursor: pointer;
+		}
+	}
+}
+
+.toast {
+	position: absolute;
+	right: 1em;
+	top: 4.25rem;
+	z-index: 200;
+	color: #333;
+	min-width: 175px;
+
+	.toast-body {
+		span { margin-left: 0.8rem; position: relative; top: -2px; font-weight: bolder; }
+	}
+}
+
+.fa-exclamation-triangle { color: red; font-size: 1.5em; }
+
+.container > div:first-of-type { margin-top: 53px; }
+
+// resets for small sizes
+
+.display-4 {
+	font-size: 2.25rem;
+}
+
+.user-message { text-align: center; font-size: 2rem; }

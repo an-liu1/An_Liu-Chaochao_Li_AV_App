@@ -1,0 +1,211 @@
+// 768 is tablet @ portait
+
+@media screen and (min-width: 768px) {
+    .roku-jumbotron h1 .titleright{
+        float: none;
+    }
+    .user-message {
+        font-size: 2.5rem;
+    }
+    .adminHeader{
+        ul li{
+            margin-right: 1px;
+        }
+        ul li a{
+            font-size: 0.6em;
+        }
+    }
+    .category{
+
+        ul li:first-child{
+            float: left;
+        }
+        ul li:last-child{
+            float: right;
+            width: 50%;
+            position: relative;
+            bottom: 10px;
+        }
+        .carousel{
+            clear: both;
+        }
+    }
+    #mainContainer{
+        .left{
+            width: 40%;
+            float: left;
+        }
+        .right .clearfloat{
+            clear: left;
+        }
+        .video video{
+            margin-top: 20px;
+        }
+        .bottom{
+            clear: both;
+        }
+    }
+    .media-title {
+        font-size: 1.25em;
+    }
+
+    .media-year { float: none; }
+
+    .media-container:first-of-type { padding-bottom: 0; }
+
+    .media-thumb { height: 165px; }
+
+    footer ul { max-width: none; }
+}
+
+@media (min-width: 992px) {
+    .display-4 {
+        font-size: 3.5rem;
+    }
+    .roku-jumbotron {
+        color: #333;
+        margin: 0 auto !important;
+        width: 500px;
+    }
+    .roku-jumbotron h1 .span{
+        color: purple;
+        font-size: 1.2em;
+    }
+    .roku-jumbotron h1 .span1{
+        font-size: 1em;
+        color: purple;
+    }
+    .roku-jumbotron h1 .titleright{
+        float: right;
+    }
+    .lead {
+        margin-top: 20px;
+        text-indent: 30px;
+        line-height: 30px;
+    }
+    .adminHeader{
+        ul li{
+            margin-right: 20px;
+        }
+    }
+    .category{
+        ul{
+            width: 50%;
+            float: right;
+        }
+        ul li{
+            margin-right: 80px;
+        }
+        ul li:last-child{
+            position: relative;
+            bottom: 40px;
+        }
+
+    }
+
+    #mainContainer{
+        margin-top: 20px;
+        .left{
+            width: 25%;
+            font-size: 1.3em;
+            float: left;
+            margin-left: 40px;
+        }
+        .left ul{
+            list-style-type: none;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .left ul li a{
+            color: white;
+            font-size: 1.1em;
+        }
+        .left ul li:first-child a{
+            color: #6c3c97;
+            font-size: 1.2em;
+        }
+        .videopconly{
+            display: block;
+            width: 40%;
+            float: left;
+        }
+        .videopconly .video{
+            
+            margin-left: 40px;
+        }
+        .right{
+            width: 70%;
+            float: left;
+        }
+        .right p{
+            color: white;
+            font-size: 1.3em;
+        }
+        .right a img:hover{
+            transform: scale(1.05);
+        }
+        .right a p:hover{
+            color: #6c3c97;
+        }
+    
+        .bottom{
+            width: 95%;
+            margin: 0 auto;
+        }
+        .video{
+            display: none;
+        }
+    }
+    .name, .pass{
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    
+    .username{
+        font-size: 1.5em;
+        margin: 10px 0;
+    }
+    .card label{
+        font-size: 1.2em;
+    }
+    .thumb-wrapper { 
+        max-height: 350px; 
+        overflow-x: auto; 
+    }
+    
+    .media-title {
+        font-size: 1.75em;
+    }
+
+    .media-type { 
+        list-style-type: none;
+        margin-bottom: 0;
+        
+        li { 
+            padding: 1rem;
+            border-bottom: thin solid $dark-bg;
+            cursor: pointer;
+            display: block;
+            width: auto;
+            text-align: left;
+
+            span:first-of-type { 
+                padding-right: 1rem; 
+                font-size: 2rem; 
+                color: white;
+            }
+    
+            span:last-of-type { 
+                display: inline-block !important;
+                text-transform: uppercase;
+                font-size: 1.2em;
+                position: relative;
+                top: -6px;
+            }
+        }
+    
+        li:hover span:first-of-type { color: $roku-purple }
+    
+        li:last-of-type { border-bottom: none; }
+    }
+}
