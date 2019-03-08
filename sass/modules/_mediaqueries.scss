@@ -41,8 +41,43 @@
         .video video{
             margin-top: 20px;
         }
-        .bottom{
+        .bottom-movie{
             clear: both;
+        }
+        .moblieonly{
+            display: none;
+        }
+    }
+    #TVContent{
+        width: 100%;
+        h2{
+            .span1{
+                font-size: 1.5em;
+            }
+            .span2{
+                font-size: 1.1em;
+            }
+        }
+        ul{
+            li:first-child{
+                margin-left: 0;
+            }
+            li{
+                margin-right: 20px;
+            }
+            .li3{
+                margin-left: 0;
+            }
+        }
+        .nextTv{
+            .lastTV{
+                position: relative;
+                bottom: 145px;
+            }
+            .left .tblonly{
+                display: block;
+                margin-top: 30px;
+            }
         }
     }
     .media-title {
@@ -122,15 +157,18 @@
         }
         .left ul li:first-child a{
             color: #6c3c97;
-            font-size: 1.2em;
+            font-size: 1.6em;
+        }
+        .left ul .aboutroku a{
+            color: red;
+            font-size: 1.6em;
         }
         .videopconly{
             display: block;
-            width: 40%;
             float: left;
+            width: 850px;
         }
-        .videopconly .video{
-            
+        .videopconly .video{    
             margin-left: 40px;
         }
         .right{
@@ -148,14 +186,35 @@
             color: #6c3c97;
         }
     
-        .bottom{
+        .bottom-movie{
+            clear: both;
             width: 95%;
             margin: 0 auto;
+            a{
+                margin-top: 20px;
+            }
         }
         .video{
             display: none;
         }
     }
+    #TVContent{
+        width: 95%;
+        margin: 0 auto;
+        .nextTv{
+            .lastTV{
+                position: relative;
+                bottom: 200px;
+            }
+            .left .tblonly{
+                display: none;
+            }
+            .right{
+                margin-top: 30px;
+            }
+        }
+    }
+
     .name, .pass{
         font-weight: bold;
         font-size: 1.2em;

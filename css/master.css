@@ -80,15 +80,23 @@ header {
     list-style-type: none;
     margin-left: 10px;
     margin-top: 10px; }
+  #mainContainer .left ul li {
+    margin-bottom: 5px; }
   #mainContainer .left ul li a {
     color: white;
     font-size: 1.2em; }
+  #mainContainer .left ul li a:hover {
+    color: #6c3c97; }
   #mainContainer .left ul li:first-child a {
-    color: #6c3c97;
-    font-size: 1.4em; }
+    color: red;
+    font-size: 1.6em; }
+  #mainContainer .left ul .aboutroku a {
+    color: red;
+    font-size: 1.3em; }
   #mainContainer .right p {
     color: white;
-    font-size: 1em; }
+    font-size: 1em;
+    margin-top: 5px; }
   #mainContainer .right a img:hover {
     transform: scale(1.05); }
   #mainContainer .right a p:hover {
@@ -100,7 +108,45 @@ header {
   #mainContainer .video p {
     color: white;
     margin-left: 10px; }
+  #mainContainer .bottom-movie p {
+    color: white;
+    font-size: 1.4em;
+    margin-top: 10px; }
+  #mainContainer .bottom-movie img:hover {
+    transform: scale(1.05); }
+  #mainContainer .bottom-movie a p:hover {
+    color: #6c3c97; }
   #mainContainer .videopconly {
+    display: none; }
+
+#TVContent {
+  width: 95%;
+  margin: 0 auto; }
+  #TVContent h2 {
+    color: white; }
+    #TVContent h2 .span2 {
+      font-size: 0.6em; }
+  #TVContent ul {
+    list-style-type: none;
+    margin-top: 10px; }
+    #TVContent ul li:first-child {
+      margin-left: 20px; }
+    #TVContent ul li {
+      display: inline;
+      margin-right: 50px; }
+    #TVContent ul .li3 {
+      margin-left: 65px; }
+  #TVContent .nextTv .left {
+    margin-top: 20px; }
+  #TVContent .nextTv .right {
+    margin-top: 20px; }
+  #TVContent .nextTv p {
+    color: white;
+    margin-top: 5px; }
+  #TVContent .nextTv .lastTV {
+    position: relative;
+    bottom: 135px; }
+  #TVContent .nextTv .left .tblonly {
     display: none; }
 
 nav:not(.side-nav) ul {
@@ -339,8 +385,29 @@ footer {
     clear: left; }
   #mainContainer .video video {
     margin-top: 20px; }
-  #mainContainer .bottom {
+  #mainContainer .bottom-movie {
     clear: both; }
+  #mainContainer .moblieonly {
+    display: none; }
+
+  #TVContent {
+    width: 100%; }
+    #TVContent h2 .span1 {
+      font-size: 1.5em; }
+    #TVContent h2 .span2 {
+      font-size: 1.1em; }
+    #TVContent ul li:first-child {
+      margin-left: 0; }
+    #TVContent ul li {
+      margin-right: 20px; }
+    #TVContent ul .li3 {
+      margin-left: 0; }
+    #TVContent .nextTv .lastTV {
+      position: relative;
+      bottom: 145px; }
+    #TVContent .nextTv .left .tblonly {
+      display: block;
+      margin-top: 30px; }
 
   .media-title {
     font-size: 1.25em; }
@@ -409,10 +476,16 @@ footer {
       font-size: 1.1em; }
     #mainContainer .left ul li:first-child a {
       color: #6c3c97;
-      font-size: 1.2em; }
+      font-size: 1.6em; }
+    #mainContainer .left ul .aboutroku a {
+      color: red;
+      font-size: 1.6em; }
     #mainContainer .videopconly {
       display: block;
-      width: 50%; }
+      float: left;
+      width: 850px; }
+    #mainContainer .videopconly .video {
+      margin-left: 40px; }
     #mainContainer .right {
       width: 70%;
       float: left; }
@@ -423,11 +496,25 @@ footer {
       transform: scale(1.05); }
     #mainContainer .right a p:hover {
       color: #6c3c97; }
-    #mainContainer .bottom {
+    #mainContainer .bottom-movie {
+      clear: both;
       width: 95%;
       margin: 0 auto; }
+      #mainContainer .bottom-movie a {
+        margin-top: 20px; }
     #mainContainer .video {
       display: none; }
+
+  #TVContent {
+    width: 95%;
+    margin: 0 auto; }
+    #TVContent .nextTv .lastTV {
+      position: relative;
+      bottom: 200px; }
+    #TVContent .nextTv .left .tblonly {
+      display: none; }
+    #TVContent .nextTv .right {
+      margin-top: 30px; }
 
   .name, .pass {
     font-weight: bold;
