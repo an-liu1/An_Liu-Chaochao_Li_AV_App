@@ -6,15 +6,14 @@
 
 // top left media details
 .media-title { 
-    font-size: 1.5em; 
+    font-size: 1.3em; 
     padding-top: 1em;
     font-weight: bolder; 
 }
 
-.media-details { font-size: 1.2em; padding: 0.5em 0; }
+.media-details { font-size: 1.1em; padding: 0.5em 0; }
 
-.media-year, .media-time { font-size: 1em; }
-.media-year { display: block; float: right; }
+.media-year, .media-time { font-size: 1.1em; }
 
 .side-nav { background: darken($dark-bg, 9%) }
 
@@ -27,7 +26,7 @@
         padding: 1rem;
         cursor: pointer;
         display: inline-block;
-        width: 33%;
+        width: 90%;
         text-align: center;
 
         span:first-of-type {  
@@ -93,9 +92,6 @@
 }
 
 audio {
-    width: 70%;
-    margin: 0 13%;
-    position: absolute;
-    bottom: 12%;
+    width: 90%;
     opacity: 0.8;
 }
