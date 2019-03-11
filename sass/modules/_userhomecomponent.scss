@@ -1,19 +1,19 @@
 .fs-video { width: 100% }
 
 .media-container { background: darken($dark-bg, 15%)}
-.media-container:first-of-type { padding-bottom: 1em; }
+.media-container:first-of-type { padding-bottom: $p-size-basic; }
 .media-container:last-of-type { padding-left: 0; padding-right: 0; }
 
 // top left media details
 .media-title { 
-    font-size: 1.3em; 
-    padding-top: 1em;
+    font-size: $p-size-pc; 
+    padding-top: $p-size-basic;
     font-weight: bolder; 
 }
 
-.media-details { font-size: 1.1em; padding: 0.5em 0; }
+.media-details { font-size: $p-size; padding: 0.5em 0; }
 
-.media-year, .media-time { font-size: 1.1em; }
+.media-year, .media-time { font-size: $p-size; }
 
 .side-nav { background: darken($dark-bg, 9%) }
 
@@ -25,13 +25,12 @@
     li { 
         padding: 1rem;
         cursor: pointer;
-        display: inline-block;
-        width: 90%;
+        display: inline;
         text-align: center;
 
         span:first-of-type {  
             font-size: 2rem; 
-            color: white;
+            color: $main-color;
         }
     }
 
@@ -44,14 +43,14 @@
     list-style-type: none;
     background: darken($dark-bg, 10%);
     margin: 0;
-    padding: 1em 1em 1em 1.5em;
+    padding: $p-size-basic $p-size-basic $p-size-basic 1.5em;
 
     li { 
         display: inline-block;
 
         a {
             font-size: 1rem;
-            color: white;
+            color: $main-color;
             text-decoration: none;
         }
         

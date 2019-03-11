@@ -48,6 +48,47 @@
             display: none;
         }
     }
+    #mainContainer1{
+        h2{
+            margin-left: 20px;
+        }
+        .left{
+            width: 40%;
+            float: left;
+        }
+        .right .clearfloat{
+            clear: left;
+        }
+        .video video{
+            margin-top: 20px;
+        }
+        .bottom-movie{
+            display: block;
+            clear: both;
+            width: 95%;
+            margin: 0 auto;
+            a{
+                margin-top: 20px;
+            }
+            .left{
+                width: 67%;
+                float: left;
+            }
+            .right{
+                width: 30%;
+                float: right;
+                img{
+                    width: 80%;
+                }
+            }
+            .tabletonly{
+                display: block;
+            }
+        }
+        .moblieonly{
+            display: none;
+        }
+    }
     #TVContent{
         width: 100%;
         h2{
@@ -55,7 +96,7 @@
                 font-size: 1.5em;
             }
             .span2{
-                font-size: 1.1em;
+                font-size: $p-size;
             }
         }
         ul{
@@ -79,11 +120,21 @@
                 margin-top: 30px;
             }
         }
+        .tvshow{
+            position: relative;
+            bottom: 160px;
+        }
+
     }
     .media-title {
         font-size: 1.25em;
     }
 
+    .media-type {
+        li{
+            display: inline-block;
+        }
+    }
     .media-year { float: none; }
 
     .media-container:first-of-type { padding-bottom: 0; }
@@ -107,7 +158,7 @@
         font-size: 1.2em;
     }
     .roku-jumbotron h1 .span1{
-        font-size: 1em;
+        font-size: $p-size-basic;
         color: purple;
     }
     .roku-jumbotron h1 .titleright{
@@ -142,7 +193,7 @@
         margin-top: 20px;
         .left{
             width: 25%;
-            font-size: 1.3em;
+            font-size: $p-size-pc;
             float: left;
             margin-left: 40px;
         }
@@ -152,11 +203,11 @@
             margin-top: 10px;
         }
         .left ul li a{
-            color: white;
-            font-size: 1.1em;
+            color: $main-color;
+            font-size: $p-size;
         }
         .left ul li:first-child a{
-            color: #6c3c97;
+            color: $roku-purple;
             font-size: 1.6em;
         }
         .left ul .aboutroku a{
@@ -176,14 +227,14 @@
             float: left;
         }
         .right p{
-            color: white;
-            font-size: 1.3em;
+            color: $main-color;
+            font-size: $p-size-pc;
         }
         .right a img:hover{
             transform: scale(1.05);
         }
         .right a p:hover{
-            color: #6c3c97;
+            color: $roku-purple;
         }
     
         .bottom-movie{
@@ -194,6 +245,69 @@
                 margin-top: 20px;
             }
         }
+        .video{
+            display: none;
+        }
+    }
+    #mainContainer1{
+        margin-top: 20px;
+        h2{
+            margin-left: 50px;
+        }
+        .left{
+            width: 25%;
+            float: left;
+            margin-left: 40px;
+            img{
+                width: 80%;
+            }
+        }
+        .videopconly{
+            display: block;
+            float: left;
+            width: 850px;
+        }
+        .videopconly .video{    
+            margin-left: 40px;
+        }
+        .right{
+            width: 70%;
+            float: left;
+        }
+        .right p{
+            color: $main-color;
+            font-size: $p-size-pc;
+        }
+        .right a img:hover{
+            transform: scale(1.05);
+        }
+        .right a p:hover{
+            color: $roku-purple;
+        }
+        .bottom-movie{
+            display: block;
+            clear: both;
+            width: 95%;
+            margin: 0 auto;
+            a{
+                margin-top: 20px;
+            }
+            .left{
+                width: 77%;
+                float: left;
+            }
+            .right{
+                width: 20%;
+                float: right;
+                img{
+                    width: 80%;
+                }
+            }
+            .tabletonly{
+                display: none;
+            }
+        }
+        
         .video{
             display: none;
         }
@@ -213,8 +327,18 @@
                 margin-top: 30px;
             }
         }
+        .bottomtvshow{
+            p{
+                font-size: $p-size-pc;
+            }
+        }
     }
 
+    #MusicContent{
+        p{
+            font-size: $p-size-pc;
+        }
+    }
     .name, .pass{
         font-weight: bold;
         font-size: 1.2em;
@@ -229,7 +353,23 @@
     }
     .thumb-wrapper { 
         max-height: 350px; 
-        overflow-x: auto; 
+        // overflow-x: auto; 
+    }
+    /* width */
+    .thumb-wrapper::-webkit-scrollbar {
+        width: 20px;
+    }
+    
+    /* Track */
+    .thumb-wrapper::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 10px;
+    }
+    
+    /* Handle */
+    .thumb-wrapper::-webkit-scrollbar-thumb {
+        background: red; 
+        border-radius: 10px;
     }
     
     .media-title {
@@ -251,7 +391,7 @@
             span:first-of-type { 
                 padding-right: 1rem; 
                 font-size: 2rem; 
-                color: white;
+                color: $main-color;
             }
     
             span:last-of-type { 
@@ -271,19 +411,19 @@
     .fs-video { width: 100% }
 
 .media-container { background: darken($dark-bg, 15%)}
-.media-container:first-of-type { padding-bottom: 1em; }
+.media-container:first-of-type { padding-bottom: $p-size-basic; }
 .media-container:last-of-type { padding-left: 0; padding-right: 0; }
 
 // top left media details
 .media-title { 
     font-size: 1.5em; 
-    padding-top: 1em;
+    padding-top: $p-size-basic;
     font-weight: bolder; 
 }
 
 .media-details { font-size: 1.2em; padding: 0.5em 0; }
 
-.media-year, .media-time { font-size: 1em; }
+.media-year, .media-time { font-size: $p-size-basic; }
 .media-year { display: block; float: right; }
 
 .side-nav { background: darken($dark-bg, 9%) }
@@ -302,7 +442,7 @@
 
         span:first-of-type {  
             font-size: 2rem; 
-            color: white;
+            color: $main-color;
         }
     }
 
@@ -315,14 +455,14 @@
     list-style-type: none;
     background: darken($dark-bg, 10%);
     margin: 0;
-    padding: 1em 1em 1em 1.5em;
+    padding: $p-size-basic $p-size-basic $p-size-basic 1.5em;
 
     li { 
         display: inline-block;
 
         a {
             font-size: 1rem;
-            color: white;
+            color: $main-color;
             text-decoration: none;
         }
         

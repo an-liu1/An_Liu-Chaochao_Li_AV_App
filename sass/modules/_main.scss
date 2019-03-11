@@ -5,7 +5,7 @@ html { position: relative; min-height: 100%; }
 body {
 	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 	background-color: black;
-	color: white;
+	color: $main-color;
 	margin-bottom: 100px;
 	background: url(../images/gunmetal.jpg) repeat;
 }
@@ -22,7 +22,7 @@ header {
 	z-index: 500;
 	width: 100%; 
 
-	span {
+	.flashback {
 		margin-left: 15px;
 		font-weight: bolder;
 		font-size: 1.5em;
@@ -31,24 +31,31 @@ header {
 		top: 5px;
 	}
 }
-
+h2, h3{
+	img:hover{
+		transform: scale(1.5);
+	}
+}
 .adminHeader{
 	span{
-		color: #6c3c97;
+		color: $roku-purple;
 	}
 	.adminNav ul{
 		list-style-type: none;
 	}
 	.adminNav ul li{
 		text-decoration: none;
+		margin-left: 10px;
+		
 	}
 	.adminNav li a{
 		text-transform: capitalize;
-		color: white;
+		color: $main-color;
+		font-size: $p-size-basic;
 	}
 
 	.adminNav li a:hover, .adminNav li:hover{
-		color: #6c3c97;
+		color: $roku-purple;
 
 	}
 }
@@ -64,7 +71,7 @@ header {
 		background-color: black;
 	}
 	.dropdown-menu li a{
-		font-size: 1em;
+		font-size: $p-size-basic;
 	}
 	ul li{
 		display: inline;
@@ -74,10 +81,10 @@ header {
 	ul li a{
 		font-size: 1.5em;
 		text-transform: uppercase;
-		color: white;
+		color: $main-color;
 	}
 	ul li a:hover{
-		color: #6c3c97;
+		color: $roku-purple;
 	}
 	form{
 		margin-top: 5px;
@@ -93,7 +100,7 @@ header {
 #mainContainer{
 	margin-top: 20px;
 	.left{
-		font-size: 1em;
+		font-size: $p-size-basic;
 	}
 	.left ul{
 		list-style-type: none;
@@ -104,11 +111,11 @@ header {
 		margin-bottom: 5px;
 	}
 	.left ul li a{
-		color: white;
+		color: $main-color;
 		font-size: 1.2em;
 	}
 	.left ul li a:hover{
-		color: #6c3c97;
+		color: $roku-purple;
 	}
 	.left ul li:first-child a{
 		color: red;
@@ -116,19 +123,19 @@ header {
 	}
 	.left ul .aboutroku a{
 		color: red;
-		font-size: 1.3em;
+		font-size: $p-size-pc;
 	}
 
 	.right p{
-		color: white;
-		font-size: 1em;
+		color: $main-color;
+		font-size: $p-size-basic;
 		margin-top: 5px;
 	}
 	.right a img:hover{
 		transform: scale(1.05);
 	}
 	.right a p:hover{
-		color: #6c3c97;
+		color: $roku-purple;
 	}
 	.video video{
 		width: 95%;
@@ -137,11 +144,11 @@ header {
 		
 	}
 	.video p{
-		color: white;
+		color: $main-color;
 		margin-left: 10px;
 	}
 	.bottom-movie p{
-		color: white;
+		color: $main-color;
 		font-size: 1.4em;
 		margin-top: 10px;
 	}
@@ -149,7 +156,7 @@ header {
 		transform: scale(1.05);
 	}
 	.bottom-movie	a p:hover{
-		color: #6c3c97;
+		color: $roku-purple;
 	}
 
 	.videopconly{
@@ -161,7 +168,7 @@ header {
 	width: 95%;
 	margin: 0 auto;
 	h2{
-		color: white;
+		color: $main-color;
 		.span2{
 			font-size: 0.6em;
 		}
@@ -174,7 +181,7 @@ header {
 		}
 		li{
 			display: inline;
-			margin-right: 50px;
+			margin-right: 40px;
 		}
 		.li3{
 			margin-left: 65px;
@@ -188,7 +195,7 @@ header {
 			margin-top: 20px;
 		}
 		p{
-			color: white;
+			color: $main-color;
 			margin-top: 5px;
 		}
 		.lastTV{
@@ -200,9 +207,45 @@ header {
 		}
 	}
 	.tvshow{
-		color: white;
+		color: $main-color;
+		position: relative;
+		bottom: 130px;
+	}
+	.bottomtvshow{
+		position: relative;
+		bottom: 130px;
+		p{
+			color: $main-color;
+			font-size: $p-size-basic;
+			margin-top: 10px;
+		}
+		p:hover{
+			color: $roku-purple;
+		}
+		a img:hover{
+			transform: scale(1.05);
+		}
 	}
 	
+}
+#MusicContent{
+	width: 95%;
+	margin: 0 auto;
+	position: relative;
+	bottom: 135px;
+	color: $main-color;
+	a p{
+		color: $main-color;
+		font-size: $p-size-basic;
+		margin-top: 10px;
+	}
+	p:hover{
+		color: $roku-purple;
+	}
+	a img:hover{
+		transform: scale(1.05);
+	}
+
 }
 nav:not(.side-nav) {
 	ul {
@@ -221,7 +264,7 @@ nav:not(.side-nav) {
 
 .toast {
 	position: absolute;
-	right: 1em;
+	right: $p-size-basic;
 	top: 4.25rem;
 	z-index: 200;
 	color: #333;

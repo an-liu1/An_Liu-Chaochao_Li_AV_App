@@ -4,12 +4,12 @@
     width: 100%;
 }
 .roku-jumbotron h1 .span{
-    color: purple;
+    color: $roku-purple;
     font-size: 1.2em;
 }
 .roku-jumbotron h1 .span1{
-    font-size: 1em;
-    color: purple;
+    font-size: $p-size-basic;
+    color: $roku-purple;
 }
 .roku-jumbotron h1 .titleright{
     float: right;
@@ -20,7 +20,7 @@
 }
 .name, .pass{
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: $p-size;
 }
 .button{
     margin: 0 auto;

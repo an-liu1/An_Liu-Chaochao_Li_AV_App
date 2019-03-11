@@ -1,0 +1,108 @@
+#mainContainer1{
+	margin-top: 20px;
+	h2{
+		color: $main-color;
+		margin-left: 20px;
+	}
+	.left{
+		font-size: $p-size-basic;
+	}
+	.right p{
+		color: $main-color;
+		font-size: $p-size-basic;
+		margin-top: 5px;
+	}
+	.right a img:hover{
+		transform: scale(1.05);
+	}
+	.right a p:hover{
+		color: $roku-purple;
+	}
+	.video video{
+		width: 95%;
+		display: block;
+		margin: 10px auto;
+		
+	}
+	.video p{
+		color: $main-color;
+		margin-left: 10px;
+	}
+
+	.bottom-movie p{
+		color: $main-color;
+		font-size: 1.4em;
+		margin-top: 10px;
+	}
+	.bottom-movie img:hover{
+		transform: scale(1.05);
+	}
+	.bottom-movie	a p:hover{
+		color: $roku-purple;
+	}
+	.tabletonly{
+		display: none;
+	}
+
+	.videopconly{
+		display: none;
+	}
+}
+#TVContent1{
+	width: 95%;
+	margin: 0 auto;
+	h2{
+		color: $main-color;
+		.span2{
+			font-size: 0.6em;
+		}
+	}
+	ul{
+		list-style-type: none;
+		margin-top: 10px;
+		li:first-child{
+			margin-left: 20px;
+		}
+		li{
+			display: inline;
+			margin-right: 40px;
+		}
+		.li3{
+			margin-left: 65px;
+		}
+	}
+	.tvshow{
+		color: $main-color;
+	}
+	.bottomtvshow{
+		p{
+			color: $main-color;
+			font-size: 1.2em;
+			margin-top: 10px;
+		}
+		p:hover{
+			color: $roku-purple;
+		}
+		a img:hover{
+			transform: scale(1.05);
+		}
+	}
+	
+}
+#MusicContent1{
+	width: 95%;
+	margin: 0 auto;
+	color: $main-color;
+	a p{
+		color: $main-color;
+		font-size: 1.2em;
+		margin-top: 10px;
+	}
+	p:hover{
+		color: $roku-purple;
+	}
+	a img:hover{
+		transform: scale(1.05);
+	}
+
+}
