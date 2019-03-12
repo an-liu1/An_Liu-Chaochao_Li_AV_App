@@ -1,1 +1,858 @@
-*{border:0;padding:0;margin:0}html{position:relative;min-height:100%}body{font:14px "Lucida Grande", Helvetica, Arial, sans-serif;background-color:black;color:#fff;margin-bottom:100px;background:url(../images/gunmetal.jpg) repeat}a{color:#00B7FF;text-decoration:none}header{background-color:#1a1818;padding:12px 14px;position:fixed;z-index:500;width:100%}header .flashback{margin-left:15px;font-weight:bolder;font-size:1.5em;text-transform:uppercase;position:relative;top:5px}h2 img:hover,h3 img:hover{transform:scale(1.5)}.adminHeader span{color:#6C3C97}.adminHeader .adminNav ul{list-style-type:none}.adminHeader .adminNav ul li{text-decoration:none;margin-left:10px}.adminHeader .adminNav li a{text-transform:capitalize;color:#fff;font-size:1em}.adminHeader .adminNav li a:hover,.adminHeader .adminNav li:hover{color:#6C3C97}.category{margin-top:10px}.category ul{list-style-type:none;width:80%;margin:0 auto}.category .dropdown-menu{background-color:black}.category .dropdown-menu li a{font-size:1em}.category ul li{display:inline;text-decoration:none;margin-right:20px}.category ul li a{font-size:1.5em;text-transform:uppercase;color:#fff}.category ul li a:hover{color:#6C3C97}.category form{margin-top:5px;margin-bottom:10px}.category img{width:95%;display:block;margin:0 auto}#mainContainer{margin-top:20px}#mainContainer .left{font-size:1em}#mainContainer .left ul{list-style-type:none;margin-left:10px;margin-top:10px}#mainContainer .left ul li{margin-bottom:5px}#mainContainer .left ul li a{color:#fff;font-size:1.2em}#mainContainer .left ul li a:hover{color:#6C3C97}#mainContainer .left ul li:first-child a{color:red;font-size:1.6em}#mainContainer .left ul .aboutroku a{color:red;font-size:1.3em}#mainContainer .right p{color:#fff;font-size:1em;margin-top:5px}#mainContainer .right a img:hover{transform:scale(1.05)}#mainContainer .right a p:hover{color:#6C3C97}#mainContainer .video video{width:95%;display:block;margin:10px auto}#mainContainer .video p{color:#fff;margin-left:10px}#mainContainer .bottom-movie p{color:#fff;font-size:1.4em;margin-top:10px}#mainContainer .bottom-movie img:hover{transform:scale(1.05)}#mainContainer .bottom-movie a p:hover{color:#6C3C97}#mainContainer .videopconly{display:none}#TVContent{width:95%;margin:0 auto}#TVContent h2{color:#fff}#TVContent h2 .span2{font-size:0.6em}#TVContent ul{list-style-type:none;margin-top:10px}#TVContent ul li:first-child{margin-left:20px}#TVContent ul li{display:inline;margin-right:40px}#TVContent ul .li3{margin-left:65px}#TVContent .nextTv .left{margin-top:20px}#TVContent .nextTv .right{margin-top:20px}#TVContent .nextTv p{color:#fff;margin-top:5px}#TVContent .nextTv .lastTV{position:relative;bottom:135px}#TVContent .nextTv .left .tblonly{display:none}#TVContent .tvshow{color:#fff;position:relative;bottom:130px}#TVContent .bottomtvshow{position:relative;bottom:130px}#TVContent .bottomtvshow p{color:#fff;font-size:1em;margin-top:10px}#TVContent .bottomtvshow p:hover{color:#6C3C97}#TVContent .bottomtvshow a img:hover{transform:scale(1.05)}#MusicContent{width:95%;margin:0 auto;position:relative;bottom:135px;color:#fff}#MusicContent a p{color:#fff;font-size:1em;margin-top:10px}#MusicContent p:hover{color:#6C3C97}#MusicContent a img:hover{transform:scale(1.05)}nav:not(.side-nav) ul{right:3em;list-style-type:none;margin-bottom:0}nav:not(.side-nav) ul li{display:inline-block;font-size:1.75em;padding:0 0.2em;cursor:pointer}.toast{position:absolute;right:1em;top:4.25rem;z-index:200;color:#333;min-width:175px}.toast .toast-body span{margin-left:0.8rem;position:relative;top:-2px;font-weight:bolder}.fa-exclamation-triangle{color:red;font-size:1.5em}.container>div:first-of-type{margin-top:53px}.display-4{font-size:2.25rem}.user-message{text-align:center;font-size:2rem}.user-message{margin:0.25em 0 1em}.card{cursor:pointer;color:#fff;background:#6C3C97;border:4px solid #522d73;margin-bottom:1em}.card .card-body p{margin:10px 0 0}.username{font-size:1.2em;margin:10px 0}.card label{font-size:1.2em}.fs-video{width:100%}.media-container{background:#000}.media-container:first-of-type{padding-bottom:1em}.media-container:last-of-type{padding-left:0;padding-right:0}.media-title{font-size:1.3em;padding-top:1em;font-weight:bolder}.media-details{font-size:1.1em;padding:0.5em 0}.media-year,.media-time{font-size:1.1em}.side-nav{background:#020202}.media-type{list-style-type:none;margin-bottom:0}.media-type li{padding:1rem;cursor:pointer;display:inline;text-align:center}.media-type li span:first-of-type{font-size:2rem;color:#fff}.media-type li:hover span:first-of-type{color:#6C3C97}.media-genres{list-style-type:none;background:#000;margin:0;padding:1em 1em 1em 1.5em}.media-genres li{display:inline-block}.media-genres li a{font-size:1rem;color:#fff;text-decoration:none}.media-genres li a:hover{color:#6C3C97}.media-genres li::after{content:"|";padding:0 8px 0 13px;color:rgba(255,255,255,0.5)}.media-genres li:last-of-type::after{content:none}.media-info{padding-left:0;padding-right:0}.media-info>div{padding:0 10px}.media-thumb{height:140px;margin:0.7em}.audio-thumb{height:150px}.audio-wrapper{background:#1a1818}.audio-wrapper img{max-width:85%;display:block;margin:0 auto;padding:4%}audio{width:90%;opacity:0.8}footer{position:absolute;bottom:0;width:100%;height:100px;background-color:#1a1818}footer p{display:inline-block;padding-left:1em;position:relative;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}footer ul{list-style-type:none;position:relative;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);margin-bottom:0;max-width:95px}footer ul li{font-size:2.5em;display:inline-block;margin-right:0.4em;color:rgba(255,255,255,0.3)}.roku-jumbotron{color:#333;margin:50px auto !important;width:100%}.roku-jumbotron h1 .span{color:#6C3C97;font-size:1.2em}.roku-jumbotron h1 .span1{font-size:1em;color:#6C3C97}.roku-jumbotron h1 .titleright{float:right}.lead{margin-top:10px;line-height:20px}.name,.pass{font-weight:bold;font-size:1.1em}.button{margin:0 auto}@media screen and (min-width: 768px){.roku-jumbotron h1 .titleright{float:none}.user-message{font-size:2.5rem}.adminHeader ul li{margin-right:1px}.adminHeader ul li a{font-size:0.6em}.category ul li:first-child{float:left}.category ul li:last-child{float:right;width:50%;position:relative;bottom:10px}.category .carousel{clear:both}#mainContainer .left{width:40%;float:left}#mainContainer .right .clearfloat{clear:left}#mainContainer .video video{margin-top:20px}#mainContainer .bottom-movie{clear:both}#mainContainer .moblieonly{display:none}#mainContainer1 h2{margin-left:20px}#mainContainer1 .left{width:40%;float:left}#mainContainer1 .right .clearfloat{clear:left}#mainContainer1 .video video{margin-top:20px}#mainContainer1 .bottom-movie{display:block;clear:both;width:95%;margin:0 auto}#mainContainer1 .bottom-movie a{margin-top:20px}#mainContainer1 .bottom-movie .left{width:67%;float:left}#mainContainer1 .bottom-movie .right{width:30%;float:right}#mainContainer1 .bottom-movie .right img{width:80%}#mainContainer1 .bottom-movie .tabletonly{display:block}#mainContainer1 .moblieonly{display:none}#TVContent{width:100%}#TVContent h2 .span1{font-size:1.5em}#TVContent h2 .span2{font-size:1.1em}#TVContent ul li:first-child{margin-left:0}#TVContent ul li{margin-right:20px}#TVContent ul .li3{margin-left:0}#TVContent .nextTv .lastTV{position:relative;bottom:145px}#TVContent .nextTv .left .tblonly{display:block;margin-top:30px}#TVContent .tvshow{position:relative;bottom:160px}.media-title{font-size:1.25em}.media-type li{display:inline-block}.media-year{float:none}.media-container:first-of-type{padding-bottom:0}.media-thumb{height:165px}footer ul{max-width:none}}@media (min-width: 992px){.display-4{font-size:3.5rem}.roku-jumbotron{color:#333;margin:0 auto !important;width:500px}.roku-jumbotron h1 .span{color:purple;font-size:1.2em}.roku-jumbotron h1 .span1{font-size:1em;color:purple}.roku-jumbotron h1 .titleright{float:right}.lead{margin-top:20px;text-indent:30px;line-height:30px}.adminHeader ul li{margin-right:20px}.category ul{width:50%;float:right}.category ul li{margin-right:80px}.category ul li:last-child{position:relative;bottom:40px}#mainContainer{margin-top:20px}#mainContainer .left{width:25%;font-size:1.3em;float:left;margin-left:40px}#mainContainer .left ul{list-style-type:none;margin-left:10px;margin-top:10px}#mainContainer .left ul li a{color:#fff;font-size:1.1em}#mainContainer .left ul li:first-child a{color:#6C3C97;font-size:1.6em}#mainContainer .left ul .aboutroku a{color:red;font-size:1.6em}#mainContainer .videopconly{display:block;float:left;width:850px}#mainContainer .videopconly .video{margin-left:40px}#mainContainer .right{width:70%;float:left}#mainContainer .right p{color:#fff;font-size:1.3em}#mainContainer .right a img:hover{transform:scale(1.05)}#mainContainer .right a p:hover{color:#6C3C97}#mainContainer .bottom-movie{clear:both;width:95%;margin:0 auto}#mainContainer .bottom-movie a{margin-top:20px}#mainContainer .video{display:none}#mainContainer1{margin-top:20px}#mainContainer1 h2{margin-left:50px}#mainContainer1 .left{width:25%;float:left;margin-left:40px}#mainContainer1 .left img{width:80%}#mainContainer1 .videopconly{display:block;float:left;width:850px}#mainContainer1 .videopconly .video{margin-left:40px}#mainContainer1 .right{width:70%;float:left}#mainContainer1 .right p{color:#fff;font-size:1.3em}#mainContainer1 .right a img:hover{transform:scale(1.05)}#mainContainer1 .right a p:hover{color:#6C3C97}#mainContainer1 .bottom-movie{display:block;clear:both;width:95%;margin:0 auto}#mainContainer1 .bottom-movie a{margin-top:20px}#mainContainer1 .bottom-movie .left{width:77%;float:left}#mainContainer1 .bottom-movie .right{width:20%;float:right}#mainContainer1 .bottom-movie .right img{width:80%}#mainContainer1 .bottom-movie .tabletonly{display:none}#mainContainer1 .video{display:none}#TVContent{width:95%;margin:0 auto}#TVContent .nextTv .lastTV{position:relative;bottom:200px}#TVContent .nextTv .left .tblonly{display:none}#TVContent .nextTv .right{margin-top:30px}#TVContent .bottomtvshow p{font-size:1.3em}#MusicContent p{font-size:1.3em}.name,.pass{font-weight:bold;font-size:1.2em}.username{font-size:1.5em;margin:10px 0}.card label{font-size:1.2em}.thumb-wrapper{max-height:350px}.thumb-wrapper::-webkit-scrollbar{width:20px}.thumb-wrapper::-webkit-scrollbar-track{box-shadow:inset 0 0 5px grey;border-radius:10px}.thumb-wrapper::-webkit-scrollbar-thumb{background:red;border-radius:10px}.media-title{font-size:1.75em}.media-type{list-style-type:none;margin-bottom:0}.media-type li{padding:1rem;border-bottom:thin solid #1a1818;cursor:pointer;display:block;width:auto;text-align:left}.media-type li span:first-of-type{padding-right:1rem;font-size:2rem;color:#fff}.media-type li span:last-of-type{display:inline-block !important;text-transform:uppercase;font-size:1.2em;position:relative;top:-6px}.media-type li:hover span:first-of-type{color:#6C3C97}.media-type li:last-of-type{border-bottom:none}.fs-video{width:100%}.media-container{background:#000}.media-container:first-of-type{padding-bottom:1em}.media-container:last-of-type{padding-left:0;padding-right:0}.media-title{font-size:1.5em;padding-top:1em;font-weight:bolder}.media-details{font-size:1.2em;padding:0.5em 0}.media-year,.media-time{font-size:1em}.media-year{display:block;float:right}.side-nav{background:#020202}.media-type{list-style-type:none;margin-bottom:0}.media-type li{padding:1rem;cursor:pointer;display:inline-block;width:33%;text-align:center}.media-type li span:first-of-type{font-size:2rem;color:#fff}.media-type li:hover span:first-of-type{color:#6C3C97}.media-genres{list-style-type:none;background:#000;margin:0;padding:1em 1em 1em 1.5em}.media-genres li{display:inline-block}.media-genres li a{font-size:1rem;color:#fff;text-decoration:none}.media-genres li a:hover{color:#6C3C97}.media-genres li::after{content:"|";padding:0 8px 0 13px;color:rgba(255,255,255,0.5)}.media-genres li:last-of-type::after{content:none}.media-info{padding-left:0;padding-right:0}.media-info>div{padding:0 10px}.media-thumb{height:140px;margin:0.7em}.audio-thumb{height:150px}.audio-wrapper{background:#1a1818}.audio-wrapper img{max-width:85%;display:block;margin:0 auto;padding:4%}audio{width:70%;margin:0 13%;position:absolute;bottom:12%;opacity:0.8}}#mainContainer1{margin-top:20px}#mainContainer1 h2{color:#fff;margin-left:20px}#mainContainer1 .left{font-size:1em}#mainContainer1 .right p{color:#fff;font-size:1em;margin-top:5px}#mainContainer1 .right a img:hover{transform:scale(1.05)}#mainContainer1 .right a p:hover{color:#6C3C97}#mainContainer1 .video video{width:95%;display:block;margin:10px auto}#mainContainer1 .video p{color:#fff;margin-left:10px}#mainContainer1 .bottom-movie p{color:#fff;font-size:1.4em;margin-top:10px}#mainContainer1 .bottom-movie img:hover{transform:scale(1.05)}#mainContainer1 .bottom-movie a p:hover{color:#6C3C97}#mainContainer1 .tabletonly{display:none}#mainContainer1 .videopconly{display:none}#TVContent1{width:95%;margin:0 auto}#TVContent1 h2{color:#fff}#TVContent1 h2 .span2{font-size:0.6em}#TVContent1 ul{list-style-type:none;margin-top:10px}#TVContent1 ul li:first-child{margin-left:20px}#TVContent1 ul li{display:inline;margin-right:40px}#TVContent1 ul .li3{margin-left:65px}#TVContent1 .tvshow{color:#fff}#TVContent1 .bottomtvshow p{color:#fff;font-size:1.2em;margin-top:10px}#TVContent1 .bottomtvshow p:hover{color:#6C3C97}#TVContent1 .bottomtvshow a img:hover{transform:scale(1.05)}#MusicContent1{width:95%;margin:0 auto;color:#fff}#MusicContent1 a p{color:#fff;font-size:1.2em;margin-top:10px}#MusicContent1 p:hover{color:#6C3C97}#MusicContent1 a img:hover{transform:scale(1.05)}
+* {
+  border: 0;
+  padding: 0;
+  margin: 0; }
+
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: white;
+  margin-bottom: 100px;
+  background: url(../images/gunmetal.jpg) repeat; }
+
+a {
+  color: #00B7FF;
+  text-decoration: none; }
+
+header {
+  background-color: #1a1818;
+  padding: 12px 14px;
+  position: fixed;
+  z-index: 500;
+  width: 100%; }
+  header .flashback {
+    margin-left: 15px;
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    position: relative;
+    top: 5px; }
+
+h2 img:hover, h3 img:hover {
+  transform: scale(1.5); }
+
+.adminHeader span {
+  color: #6C3C97; }
+.adminHeader .adminNav ul {
+  list-style-type: none; }
+.adminHeader .adminNav ul li {
+  text-decoration: none;
+  margin-left: 10px; }
+.adminHeader .adminNav li a {
+  text-transform: capitalize;
+  color: white;
+  font-size: 1em; }
+.adminHeader .adminNav li a:hover, .adminHeader .adminNav li:hover {
+  color: #6C3C97; }
+
+.category {
+  margin-top: 10px; }
+  .category ul {
+    list-style-type: none;
+    width: 80%;
+    margin: 0 auto; }
+  .category .dropdown-menu {
+    background-color: black; }
+  .category .dropdown-menu li a {
+    font-size: 1em; }
+  .category ul li {
+    display: inline;
+    text-decoration: none;
+    margin-right: 20px; }
+  .category ul li a {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: white; }
+  .category ul li a:hover {
+    color: #6C3C97; }
+  .category form {
+    margin-top: 5px;
+    margin-bottom: 10px; }
+  .category img {
+    width: 95%;
+    display: block;
+    margin: 0 auto; }
+
+#mainContainer {
+  margin-top: 20px; }
+  #mainContainer .left {
+    font-size: 1em; }
+  #mainContainer .left ul {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 10px; }
+  #mainContainer .left ul li {
+    margin-bottom: 5px; }
+  #mainContainer .left ul li a {
+    color: white;
+    font-size: 1.2em; }
+  #mainContainer .left ul li a:hover {
+    color: #6C3C97; }
+  #mainContainer .left ul li:first-child a {
+    color: red;
+    font-size: 1.6em; }
+  #mainContainer .left ul .aboutroku a {
+    color: red;
+    font-size: 1.3em; }
+  #mainContainer .right p {
+    color: white;
+    font-size: 1em;
+    margin-top: 5px; }
+  #mainContainer .right a img:hover {
+    transform: scale(1.05); }
+  #mainContainer .right a p:hover {
+    color: #6C3C97; }
+  #mainContainer .video video {
+    width: 95%;
+    display: block;
+    margin: 10px auto; }
+  #mainContainer .video p {
+    color: white;
+    margin-left: 10px; }
+  #mainContainer .bottom-movie p {
+    color: white;
+    font-size: 1.4em;
+    margin-top: 10px; }
+  #mainContainer .bottom-movie img:hover {
+    transform: scale(1.05); }
+  #mainContainer .bottom-movie a p:hover {
+    color: #6C3C97; }
+  #mainContainer .videopconly {
+    display: none; }
+
+#TVContent {
+  width: 95%;
+  margin: 0 auto; }
+  #TVContent h2 {
+    color: white; }
+    #TVContent h2 .span2 {
+      font-size: 0.6em; }
+  #TVContent ul {
+    list-style-type: none;
+    margin-top: 10px; }
+    #TVContent ul li:first-child {
+      margin-left: 20px; }
+    #TVContent ul li {
+      display: inline;
+      margin-right: 40px; }
+    #TVContent ul .li3 {
+      margin-left: 65px; }
+  #TVContent .nextTv .left {
+    margin-top: 20px; }
+  #TVContent .nextTv .right {
+    margin-top: 20px; }
+  #TVContent .nextTv p {
+    color: white;
+    margin-top: 5px; }
+  #TVContent .nextTv .lastTV {
+    position: relative;
+    bottom: 135px; }
+  #TVContent .nextTv .left .tblonly {
+    display: none; }
+  #TVContent .tvshow {
+    color: white;
+    position: relative;
+    bottom: 130px; }
+  #TVContent .bottomtvshow {
+    position: relative;
+    bottom: 130px; }
+    #TVContent .bottomtvshow p {
+      color: white;
+      font-size: 1em;
+      margin-top: 10px; }
+    #TVContent .bottomtvshow p:hover {
+      color: #6C3C97; }
+    #TVContent .bottomtvshow a img:hover {
+      transform: scale(1.05); }
+
+#MusicContent {
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+  bottom: 135px;
+  color: white; }
+  #MusicContent a p {
+    color: white;
+    font-size: 1em;
+    margin-top: 10px; }
+  #MusicContent p:hover {
+    color: #6C3C97; }
+  #MusicContent a img:hover {
+    transform: scale(1.05); }
+
+nav:not(.side-nav) ul {
+  right: 3em;
+  list-style-type: none;
+  margin-bottom: 0; }
+  nav:not(.side-nav) ul li {
+    display: inline-block;
+    font-size: 1.75em;
+    padding: 0 0.2em;
+    cursor: pointer; }
+
+.toast {
+  position: absolute;
+  right: 1em;
+  top: 4.25rem;
+  z-index: 200;
+  color: #333;
+  min-width: 175px; }
+  .toast .toast-body span {
+    margin-left: 0.8rem;
+    position: relative;
+    top: -2px;
+    font-weight: bolder; }
+
+.fa-exclamation-triangle {
+  color: red;
+  font-size: 1.5em; }
+
+.container > div:first-of-type {
+  margin-top: 53px; }
+
+.display-4 {
+  font-size: 2.25rem; }
+
+.user-message {
+  text-align: center;
+  font-size: 2rem; }
+
+.user-message {
+  margin: 0.25em 0 1em; }
+
+.card {
+  cursor: pointer;
+  color: white;
+  background: #6C3C97;
+  border: 4px solid #522d73;
+  margin-bottom: 1em; }
+  .card .card-body p {
+    margin: 10px 0 0; }
+
+.username {
+  font-size: 1.2em;
+  margin: 10px 0; }
+
+.card label {
+  font-size: 1.2em; }
+
+.fs-video {
+  width: 100%; }
+
+.media-container {
+  background: black; }
+
+.media-container:first-of-type {
+  padding-bottom: 1em; }
+
+.media-container:last-of-type {
+  padding-left: 0;
+  padding-right: 0; }
+
+.media-title {
+  font-size: 1.3em;
+  padding-top: 1em;
+  font-weight: bolder; }
+
+.media-details {
+  font-size: 1.1em;
+  padding: 0.5em 0; }
+
+.media-year, .media-time {
+  font-size: 1.1em; }
+
+.side-nav {
+  background: #020202; }
+
+.media-type {
+  list-style-type: none;
+  margin-bottom: 0; }
+  .media-type li {
+    padding: 1rem;
+    cursor: pointer;
+    display: inline;
+    text-align: center; }
+    .media-type li span:first-of-type {
+      font-size: 2rem;
+      color: white; }
+  .media-type li:hover span:first-of-type {
+    color: #6C3C97; }
+
+.media-genres {
+  list-style-type: none;
+  background: black;
+  margin: 0;
+  padding: 1em 1em 1em 1.5em; }
+  .media-genres li {
+    display: inline-block; }
+    .media-genres li a {
+      font-size: 1rem;
+      color: white;
+      text-decoration: none; }
+    .media-genres li a:hover {
+      color: #6C3C97; }
+  .media-genres li::after {
+    content: "|";
+    padding: 0 8px 0 13px;
+    color: rgba(255, 255, 255, 0.5); }
+  .media-genres li:last-of-type::after {
+    content: none; }
+
+.media-info {
+  padding-left: 0;
+  padding-right: 0; }
+  .media-info > div {
+    padding: 0 10px; }
+
+.media-thumb {
+  height: 140px;
+  margin: 0.7em; }
+
+.audio-thumb {
+  height: 150px; }
+
+.audio-wrapper {
+  background: #1a1818; }
+  .audio-wrapper img {
+    max-width: 85%;
+    display: block;
+    margin: 0 auto;
+    padding: 4%; }
+
+audio {
+  width: 90%;
+  opacity: 0.8; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #1a1818; }
+  footer p {
+    display: inline-block;
+    padding-left: 1em;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  footer ul {
+    list-style-type: none;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-bottom: 0;
+    max-width: 95px; }
+    footer ul li {
+      font-size: 2.5em;
+      display: inline-block;
+      margin-right: 0.4em;
+      color: rgba(255, 255, 255, 0.3); }
+
+.roku-jumbotron {
+  color: #333;
+  margin: 50px auto !important;
+  width: 100%; }
+
+.roku-jumbotron h1 .span {
+  color: #6C3C97;
+  font-size: 1.2em; }
+
+.roku-jumbotron h1 .span1 {
+  font-size: 1em;
+  color: #6C3C97; }
+
+.roku-jumbotron h1 .titleright {
+  float: right; }
+
+.lead {
+  margin-top: 10px;
+  line-height: 20px; }
+
+.name, .pass {
+  font-weight: bold;
+  font-size: 1.1em; }
+
+.button {
+  margin: 0 auto; }
+
+@media screen and (min-width: 768px) {
+  .roku-jumbotron h1 .titleright {
+    float: none; }
+
+  .user-message {
+    font-size: 2.5rem; }
+
+  .adminHeader ul li {
+    margin-right: 1px; }
+  .adminHeader ul li a {
+    font-size: 0.6em; }
+
+  .category ul li:first-child {
+    float: left; }
+  .category ul li:last-child {
+    float: right;
+    width: 50%;
+    position: relative;
+    bottom: 10px; }
+  .category .carousel {
+    clear: both; }
+
+  #mainContainer .left {
+    width: 40%;
+    float: left; }
+  #mainContainer .right .clearfloat {
+    clear: left; }
+  #mainContainer .video video {
+    margin-top: 20px; }
+  #mainContainer .bottom-movie {
+    clear: both; }
+  #mainContainer .moblieonly {
+    display: none; }
+
+  #mainContainer1 h2 {
+    margin-left: 20px; }
+  #mainContainer1 .left {
+    width: 40%;
+    float: left; }
+  #mainContainer1 .right .clearfloat {
+    clear: left; }
+  #mainContainer1 .video video {
+    margin-top: 20px; }
+  #mainContainer1 .bottom-movie {
+    display: block;
+    clear: both;
+    width: 95%;
+    margin: 0 auto; }
+    #mainContainer1 .bottom-movie a {
+      margin-top: 20px; }
+    #mainContainer1 .bottom-movie .left {
+      width: 67%;
+      float: left; }
+    #mainContainer1 .bottom-movie .right {
+      width: 30%;
+      float: right; }
+      #mainContainer1 .bottom-movie .right img {
+        width: 80%; }
+    #mainContainer1 .bottom-movie .tabletonly {
+      display: block; }
+  #mainContainer1 .moblieonly {
+    display: none; }
+
+  #TVContent {
+    width: 100%; }
+    #TVContent h2 .span1 {
+      font-size: 1.5em; }
+    #TVContent h2 .span2 {
+      font-size: 1.1em; }
+    #TVContent ul li:first-child {
+      margin-left: 0; }
+    #TVContent ul li {
+      margin-right: 20px; }
+    #TVContent ul .li3 {
+      margin-left: 0; }
+    #TVContent .nextTv .lastTV {
+      position: relative;
+      bottom: 145px; }
+    #TVContent .nextTv .left .tblonly {
+      display: block;
+      margin-top: 30px; }
+    #TVContent .tvshow {
+      position: relative;
+      bottom: 160px; }
+
+  .media-title {
+    font-size: 1.25em; }
+
+  .media-type li {
+    display: inline-block; }
+
+  .media-year {
+    float: none; }
+
+  .media-container:first-of-type {
+    padding-bottom: 0; }
+
+  .media-thumb {
+    height: 165px; }
+
+  footer ul {
+    max-width: none; } }
+@media (min-width: 992px) {
+  .display-4 {
+    font-size: 3.5rem; }
+
+  .roku-jumbotron {
+    color: #333;
+    margin: 0 auto !important;
+    width: 500px; }
+
+  .roku-jumbotron h1 .span {
+    color: purple;
+    font-size: 1.2em; }
+
+  .roku-jumbotron h1 .span1 {
+    font-size: 1em;
+    color: purple; }
+
+  .roku-jumbotron h1 .titleright {
+    float: right; }
+
+  .lead {
+    margin-top: 20px;
+    text-indent: 30px;
+    line-height: 30px; }
+
+  .adminHeader ul li {
+    margin-right: 20px; }
+
+  .category ul {
+    width: 50%;
+    float: right; }
+  .category ul li {
+    margin-right: 80px; }
+  .category ul li:last-child {
+    position: relative;
+    bottom: 40px; }
+
+  #mainContainer {
+    margin-top: 20px; }
+    #mainContainer .left {
+      width: 25%;
+      font-size: 1.3em;
+      float: left;
+      margin-left: 40px; }
+    #mainContainer .left ul {
+      list-style-type: none;
+      margin-left: 10px;
+      margin-top: 10px; }
+    #mainContainer .left ul li a {
+      color: white;
+      font-size: 1.1em; }
+    #mainContainer .left ul li:first-child a {
+      color: #6C3C97;
+      font-size: 1.6em; }
+    #mainContainer .left ul .aboutroku a {
+      color: red;
+      font-size: 1.6em; }
+    #mainContainer .videopconly {
+      display: block;
+      float: left;
+      width: 850px; }
+    #mainContainer .videopconly .video {
+      margin-left: 40px; }
+    #mainContainer .right {
+      width: 70%;
+      float: left; }
+    #mainContainer .right p {
+      color: white;
+      font-size: 1.3em; }
+    #mainContainer .right a img:hover {
+      transform: scale(1.05); }
+    #mainContainer .right a p:hover {
+      color: #6C3C97; }
+    #mainContainer .bottom-movie {
+      clear: both;
+      width: 95%;
+      margin: 0 auto; }
+      #mainContainer .bottom-movie a {
+        margin-top: 20px; }
+    #mainContainer .video {
+      display: none; }
+
+  #mainContainer1 {
+    margin-top: 20px; }
+    #mainContainer1 h2 {
+      margin-left: 50px; }
+    #mainContainer1 .left {
+      width: 25%;
+      float: left;
+      margin-left: 40px; }
+      #mainContainer1 .left img {
+        width: 80%; }
+    #mainContainer1 .videopconly {
+      display: block;
+      float: left;
+      width: 850px; }
+    #mainContainer1 .videopconly .video {
+      margin-left: 40px; }
+    #mainContainer1 .right {
+      width: 70%;
+      float: left; }
+    #mainContainer1 .right p {
+      color: white;
+      font-size: 1.3em; }
+    #mainContainer1 .right a img:hover {
+      transform: scale(1.05); }
+    #mainContainer1 .right a p:hover {
+      color: #6C3C97; }
+    #mainContainer1 .bottom-movie {
+      display: block;
+      clear: both;
+      width: 95%;
+      margin: 0 auto; }
+      #mainContainer1 .bottom-movie a {
+        margin-top: 20px; }
+      #mainContainer1 .bottom-movie .left {
+        width: 77%;
+        float: left; }
+      #mainContainer1 .bottom-movie .right {
+        width: 20%;
+        float: right; }
+        #mainContainer1 .bottom-movie .right img {
+          width: 80%; }
+      #mainContainer1 .bottom-movie .tabletonly {
+        display: none; }
+    #mainContainer1 .video {
+      display: none; }
+
+  #TVContent {
+    width: 95%;
+    margin: 0 auto; }
+    #TVContent .nextTv .lastTV {
+      position: relative;
+      bottom: 200px; }
+    #TVContent .nextTv .left .tblonly {
+      display: none; }
+    #TVContent .nextTv .right {
+      margin-top: 30px; }
+    #TVContent .bottomtvshow p {
+      font-size: 1.3em; }
+
+  #MusicContent p {
+    font-size: 1.3em; }
+
+  .name, .pass {
+    font-weight: bold;
+    font-size: 1.2em; }
+
+  .username {
+    font-size: 1.5em;
+    margin: 10px 0; }
+
+  .card label {
+    font-size: 1.2em; }
+
+  .thumb-wrapper {
+    max-height: 350px; }
+
+  /* width */
+  .thumb-wrapper::-webkit-scrollbar {
+    width: 20px; }
+
+  /* Track */
+  .thumb-wrapper::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px; }
+
+  /* Handle */
+  .thumb-wrapper::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px; }
+
+  .media-title {
+    font-size: 1.75em; }
+
+  .media-type {
+    list-style-type: none;
+    margin-bottom: 0; }
+    .media-type li {
+      padding: 1rem;
+      border-bottom: thin solid #1a1818;
+      cursor: pointer;
+      display: block;
+      width: auto;
+      text-align: left; }
+      .media-type li span:first-of-type {
+        padding-right: 1rem;
+        font-size: 2rem;
+        color: white; }
+      .media-type li span:last-of-type {
+        display: inline-block !important;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        position: relative;
+        top: -6px; }
+    .media-type li:hover span:first-of-type {
+      color: #6C3C97; }
+    .media-type li:last-of-type {
+      border-bottom: none; }
+
+  .fs-video {
+    width: 100%; }
+
+  .media-container {
+    background: black; }
+
+  .media-container:first-of-type {
+    padding-bottom: 1em; }
+
+  .media-container:last-of-type {
+    padding-left: 0;
+    padding-right: 0; }
+
+  .media-title {
+    font-size: 1.5em;
+    padding-top: 1em;
+    font-weight: bolder; }
+
+  .media-details {
+    font-size: 1.2em;
+    padding: 0.5em 0; }
+
+  .media-year, .media-time {
+    font-size: 1em; }
+
+  .media-year {
+    display: block;
+    float: right; }
+
+  .side-nav {
+    background: #020202; }
+
+  .media-type {
+    list-style-type: none;
+    margin-bottom: 0; }
+    .media-type li {
+      padding: 1rem;
+      cursor: pointer;
+      display: inline-block;
+      width: 33%;
+      text-align: center; }
+      .media-type li span:first-of-type {
+        font-size: 2rem;
+        color: white; }
+    .media-type li:hover span:first-of-type {
+      color: #6C3C97; }
+
+  .media-genres {
+    list-style-type: none;
+    background: black;
+    margin: 0;
+    padding: 1em 1em 1em 1.5em; }
+    .media-genres li {
+      display: inline-block; }
+      .media-genres li a {
+        font-size: 1rem;
+        color: white;
+        text-decoration: none; }
+      .media-genres li a:hover {
+        color: #6C3C97; }
+    .media-genres li::after {
+      content: "|";
+      padding: 0 8px 0 13px;
+      color: rgba(255, 255, 255, 0.5); }
+    .media-genres li:last-of-type::after {
+      content: none; }
+
+  .media-info {
+    padding-left: 0;
+    padding-right: 0; }
+    .media-info > div {
+      padding: 0 10px; }
+
+  .media-thumb {
+    height: 140px;
+    margin: 0.7em; }
+
+  .audio-thumb {
+    height: 150px; }
+
+  .audio-wrapper {
+    background: #1a1818; }
+    .audio-wrapper img {
+      max-width: 85%;
+      display: block;
+      margin: 0 auto;
+      padding: 4%; }
+
+  audio {
+    width: 70%;
+    margin: 0 13%;
+    position: absolute;
+    bottom: 12%;
+    opacity: 0.8; } }
+#mainContainer1 {
+  margin-top: 20px; }
+  #mainContainer1 h2 {
+    color: white;
+    margin-left: 20px; }
+  #mainContainer1 .left {
+    font-size: 1em; }
+  #mainContainer1 .right p {
+    color: white;
+    font-size: 1em;
+    margin-top: 5px; }
+  #mainContainer1 .right a img:hover {
+    transform: scale(1.05); }
+  #mainContainer1 .right a p:hover {
+    color: #6C3C97; }
+  #mainContainer1 .video video {
+    width: 95%;
+    display: block;
+    margin: 10px auto; }
+  #mainContainer1 .video p {
+    color: white;
+    margin-left: 10px; }
+  #mainContainer1 .bottom-movie p {
+    color: white;
+    font-size: 1.4em;
+    margin-top: 10px; }
+  #mainContainer1 .bottom-movie img:hover {
+    transform: scale(1.05); }
+  #mainContainer1 .bottom-movie a p:hover {
+    color: #6C3C97; }
+  #mainContainer1 .tabletonly {
+    display: none; }
+  #mainContainer1 .videopconly {
+    display: none; }
+
+#TVContent1 {
+  width: 95%;
+  margin: 0 auto; }
+  #TVContent1 h2 {
+    color: white; }
+    #TVContent1 h2 .span2 {
+      font-size: 0.6em; }
+  #TVContent1 ul {
+    list-style-type: none;
+    margin-top: 10px; }
+    #TVContent1 ul li:first-child {
+      margin-left: 20px; }
+    #TVContent1 ul li {
+      display: inline;
+      margin-right: 40px; }
+    #TVContent1 ul .li3 {
+      margin-left: 65px; }
+  #TVContent1 .tvshow {
+    color: white; }
+  #TVContent1 .bottomtvshow p {
+    color: white;
+    font-size: 1.2em;
+    margin-top: 10px; }
+  #TVContent1 .bottomtvshow p:hover {
+    color: #6C3C97; }
+  #TVContent1 .bottomtvshow a img:hover {
+    transform: scale(1.05); }
+
+#MusicContent1 {
+  width: 95%;
+  margin: 0 auto;
+  color: white; }
+  #MusicContent1 a p {
+    color: white;
+    font-size: 1.2em;
+    margin-top: 10px; }
+  #MusicContent1 p:hover {
+    color: #6C3C97; }
+  #MusicContent1 a img:hover {
+    transform: scale(1.05); }
+
+/*# sourceMappingURL=master.css.map */
