@@ -49,8 +49,8 @@ In order to make the project operate well, there is some software necessarily:
 * 0.3.3 Change: update README.md
 
 ### Authors 
-* An Liu --- Developer
-* Chaochao Li --- Designer
+* An Liu --- Designer
+* Chaochao Li --- Developer
 
 ### License
 
