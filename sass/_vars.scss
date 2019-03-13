@@ -1,10 +1,15 @@
-$body-bg-color:#000000;
-$body-color:#ffffff;
-$body-font-family:'Big Caslon', 'Times New Roman';
-$header-font-size:14px;
-$menu-bg-color:#5cbbbb;
-$content-color:#2B3843;
-#content-color-text:#4E6162;
-#content-text:#4D4D4D;
-#footer-text-color:#666666;
-#footer-bg-color:#EBEBEB;
+
+$dark-bg: rgb(26, 24, 24);
+$roku-purple: #6C3C97;
+$main-color: white;
+$p-size-basic: 1em;
+$p-size: 1.1em;
+$p-size-pc: 1.3em; 
+
+@mixin vertical-align($position: relative) {
+    position: $position;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
