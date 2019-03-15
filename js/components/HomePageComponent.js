@@ -33,13 +33,13 @@ export default {
                 </ol>   
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="../images/rokubanner1.jpg" alt="First slide">
+                        <img src="/images/rokubanner1.jpg" alt="First slide">
                     </div>
                     <div class="item">
-                        <img src="../images/rokubanner.jpg" alt="Second slide">
+                        <img src="/images/rokubanner.jpg" alt="Second slide">
                     </div>
                     <div class="item">
-                        <img src="../images/rokubanner2.jpg" alt="Third slide">
+                        <img src="/images/rokubanner2.jpg" alt="Third slide">
                     </div>
                 </div>
                 <a class="left carousel-control" href="#myCarousel" role="button"data-slide="prev">
@@ -191,4 +191,35 @@ export default {
 
     </div>
     `,
+    data() {
+        return {
+            
+        }
+    },
+
+    created: function() {
+        console.log('params:', this.$route.params);
+
+        // if (this.$parent.currentuser.admin == false){
+            if (this.currentuser.admin == 1){
+                this.$parent.admin = true;
+            }else{
+                this.$parent.admin = false;
+            }
+        // }
+
+        this.$parent.currentuser = this.currentuser;
+    },
+
+    methods: {
+        redirectUser(place){
+            if(place == "movies"){
+                this.$router.replace({name: 'movies'});
+            }else if(place == "shows"){
+                this.$router.replace({name: 'shows'});
+            }else if(place == "music"){
+                this.$router.replace({name: 'music'});
+            }
+        }
+    }
 }

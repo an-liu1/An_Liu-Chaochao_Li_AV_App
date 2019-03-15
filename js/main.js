@@ -3,7 +3,11 @@ import UsersComponent from './components/UsersComponent.js';
 import LoginComponent from './components/LoginComponent.js';
 import AdminComponent from './components/AdminComponent.js';
 import UserHomeComponent from './components/UserHomeComponent.js';
-
+import editComponent from './components/editcomp';
+import createComponent from './components/createcomp.js';
+import HomePageComponent from './components/HomePageComponent.js';
+import KidsPageComponent from './components/KidsPageComponent.js';
+import ParentPageComponent from './components/ParentComponent.js';
 let router = new VueRouter({
 
   routes: [
@@ -11,7 +15,12 @@ let router = new VueRouter({
       { path: '/login', name: "login", component: LoginComponent },
       { path: '/users', name: 'users', component: UsersComponent },
       { path: '/userhome', name: "home", component: UserHomeComponent, props: true },
-      { path: '/admin', name: 'admin', component: AdminComponent }
+      { path: '/admin', name: 'admin', component: AdminComponent },
+      { path: '/edit', name: 'edit', component: editComponent },
+      { path: '/create', name: 'create', component: createComponent },
+      { path: '/index', name: 'index', component: HomePageComponent },
+      { path: '/kids', name: 'kids', component: KidsPageComponent },
+      { path: '/parent', name: 'parent', component:ParentPageComponent }
   ]
 });
 
@@ -19,7 +28,7 @@ const vm = new Vue({
  
   data: {
     authenticated: false,
-    administrator: false,
+    administrator: true,
 
     genericMessage: "hello from the parent",
 
@@ -41,14 +50,14 @@ const vm = new Vue({
 
     // the localstorage session will persist until logout
 
-    if (localStorage.getItem("cachedUser")) {
-      let user = JSON.parse(localStorage.getItem("cachedUser"));
-      this.authenticated = true;
-      // params not setting properly, so this route needs to be debugged a bit...
-      this.$router.push({ name: "home", params: { currentuser: user }});
-    } else {
-      this.$router.push({ path: "/login"} );
-    }    
+    // if (localStorage.getItem("cachedUser")) {
+    //   let user = JSON.parse(localStorage.getItem("cachedUser"));
+    //   this.authenticated = true;
+    //   // params not setting properly, so this route needs to be debugged a bit...
+    //   this.$router.push({ name: "home", params: { currentuser: user }});
+    // } else {
+    //   this.$router.push({ path: "/login"} );
+    // }    
   },
 
   methods: {
@@ -71,9 +80,15 @@ const vm = new Vue({
       // push user back to login page
       this.$router.push({ path: "/login" });
       this.authenticated = false;
-      
-      
-    }
+      },
+
+    eddd() {
+      // delete local session
+
+      // push user back to login page
+      this.$router.push({ path: "/admin" });
+      this.administrator = false;
+      }
   },
 
   router: router
