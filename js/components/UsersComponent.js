@@ -22,7 +22,7 @@ export default {
 
 	data() {
 	  return {
-		message: `Who's Using Roku?`,
+		message: `Enter password to get into parents account or kids account `,
 
 		userList: []
 	  }

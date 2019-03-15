@@ -2,28 +2,9 @@ export default {
     props: ['currentuser'],
 
     template: `
+    
     <div class="row">
-        <header class="col-sm-12 fixed-top adminHeader">
-            <img src="../images/roku-admin.svg" alt="Roku logo" width="90"><span class="flashback">FlashBack</span>
-            <nav class="float-right navbar navbar-dark bg-lignt navbar-expand-md">
-                <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar4">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse" id="collapsingNavbar4">
-                <ul class="adminNav navbar-nav">
-                    <li class="nav-item"><a href="#">Home</a></li>
-                    <li class="nav-item"><a href="#">Products</a></li>
-                    <li class="nav-item"><a href="#">support</a></li>
-                    <li class="nav-item"><a href="#">activate a device</a></li>
 
-                    <li v-if="authenticated"><i class="fas fa-user-circle"></i></li>
-                    <li v-if="administrator"><i class="fas fa-cog"></i></li>
-                    <li v-if="authenticated" v-on:click="logout()"><i class="fas fa-power-off"></i></li>					
-                </ul>
-                </div>
-            </nav>
-        </header>
-    </div>
     <div class="container">
     <!-- render this if we're viewing television or film -->
         <div class="row" v-if="activeMediaType == 'video' && retrievedMedia.length > 0">
