@@ -12,9 +12,11 @@ For now, we focus on creating the correct app structure
 with some tooling in place (Gulp, SASS etc).
 
 Update log: March-15-2019
+
 There are three main part designs: parent, home, kids. And also some simplified layout change for login, detail, user select page. 
 
 The home page is putting everything inside, which include Roku ads and Roku TV ads form Roku official site, and Movies, TV, Music part, and News part. The original home page, which is in the userhomeComponent.js, performs as the detail page, because there are a lot details about movies and music. Therefore, once custom click the exact movie, it will jump into this page and show the information and the custom also can look through other movies’ details in this page by click the thumbnail.
+
 ![image](https://github.com/an-liu1/An_Liu-Chaochao_Li_AV_App/blob/master/images/git1.png)
 
 
